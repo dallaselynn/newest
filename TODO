@@ -1,0 +1,17 @@
+Add microsecond time resolution option (utimes()) for platforms that support such things and make a command line option (linux 2.6, solaris?, ??)
+
+maybe dynamic array should be hash table.
+
+localized messages and time printing
+
+try to use fts() if available instead of nftw
+
+option for max dir. depth?
+
+man page
+
+if more than one file tied for newest,  do what?  print all by default?
+
+let user specify time specific time formatting
+
+make sure configure.in has everything relevant

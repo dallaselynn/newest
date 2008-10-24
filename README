@@ -1,0 +1,4 @@
+This is to find the newest files in a directory tree, or the oldest, as the case may be, where newest is defined by 'latest mtime' by default.  This can be changed to ctime or atime.  
+
+I'd like to thank FreeBSD 4.11's find for not having printf0, which can also do this quite nicely, and which led me to just say I want my own. 
+

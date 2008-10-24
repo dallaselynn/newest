@@ -1,0 +1,25 @@
+AC_INIT(configure.in)
+
+AM_CONFIG_HEADER(config.h)
+AM_INIT_AUTOMAKE(newest, 0.1)
+
+AC_PROG_CC
+gl_EARLY
+
+
+AC_LANG_C
+AM_PROG_LIBTOOL
+
+AC_CHECK_FUNCS([strtol nftw])
+AC_C_CONST
+
+gl_INIT
+AC_FUNC_MALLOC
+AC_FUNC_REALLOC
+AC_FUNC_STAT
+AC_PROG_RANLIB
+AC_TYPE_SIZE_T
+
+
+
+AC_OUTPUT(Makefile lib/Makefile src/Makefile)

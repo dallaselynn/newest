@@ -1,0 +1,59 @@
+autoscan: warning: missing AC_CHECK_FUNCS([strerror]) wanted by: 
+	src/newest.c:260
+	debug/src/newest.c:242
+autoscan: warning: missing AC_CHECK_FUNCS([strtol]) wanted by: 
+	src/newest.c:161
+	debug/src/newest.c:153
+autoscan: warning: missing AC_C_CONST wanted by: 
+	src/newest.c:78
+	src/newest.c:116
+	src/newest.c:116
+	src/newest.c:122
+	src/newest.c:122
+	src/newest.c:125
+	src/newest.c:125
+	src/newest.c:224
+	src/newest.c:224
+	src/newest.c:250
+	src/newest.c:250
+	src/newest.c:290
+	src/newest.c:290
+	src/newest.c:292
+	src/newest.c:292
+	src/newest.c:293
+	src/newest.c:293
+	debug/src/newest.c:78
+	debug/src/newest.c:106
+	debug/src/newest.c:112
+	debug/src/newest.c:112
+	debug/src/newest.c:115
+	debug/src/newest.c:115
+	debug/src/newest.c:212
+	debug/src/newest.c:232
+	debug/src/newest.c:232
+	debug/src/newest.c:268
+	debug/src/newest.c:268
+	debug/src/newest.c:270
+	debug/src/newest.c:270
+	debug/src/newest.c:271
+	debug/src/newest.c:271
+autoscan: warning: missing AC_FUNC_MALLOC wanted by: 
+	src/newest.c:232
+	src/newest.c:244
+	debug/src/newest.c:220
+	debug/src/newest.c:226
+autoscan: warning: missing AC_FUNC_REALLOC wanted by: 
+	src/newest.c:229
+	debug/src/newest.c:217
+autoscan: warning: missing AC_FUNC_STAT wanted by: 
+	src/newest.c:198
+	debug/src/newest.c:187
+autoscan: warning: missing AC_PROG_RANLIB wanted by: 
+	ltmain.sh:6817
+	debug/Makefile:123
+	debug/src/Makefile:120
+	debug/Makefile:123
+	debug/src/Makefile:120
+autoscan: warning: missing AC_TYPE_SIZE_T wanted by: 
+	src/newest.c:98
+	debug/src/newest.c:97
