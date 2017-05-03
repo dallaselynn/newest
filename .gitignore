@@ -38,3 +38,4 @@ GTAGS
 TAGS
 src/dseq
 tests/*.trs
+autoscan.log
