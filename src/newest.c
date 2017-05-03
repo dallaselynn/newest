@@ -92,7 +92,8 @@ static struct option const long_options[] =
   { "include-dirs", no_argument, NULL, 'd'},
   { "quiet",  no_argument,       NULL, 'q'},
   { "human",  no_argument,       NULL, 'H'},
-  { "ignore-empty", no_argument, NULL, 'e' },
+  { "ignore-empty", no_argument, NULL, 'e'},
+  { "show-empty-dirs", no_argument, NULL, 'E'},
   { NULL, 0, NULL, 0}
 };
 
@@ -129,7 +130,7 @@ static unsigned long n_to_display = DEFAULT_DISPLAY_FILES;
 /* supress timestamp if true  */
 static bool quiet_output = false;
 
-/* skip empty filesi in output if true */
+/* skip empty files in output if true */
 static bool ignore_empty = false;
 
 /* add an element to the results array */
