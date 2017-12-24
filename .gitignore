@@ -39,7 +39,7 @@ GRTAGS
 GSYMS
 GTAGS
 TAGS
-src/dseq
+src/newest
 tests/*.trs
 autoscan.log
 autoscan-*.log
