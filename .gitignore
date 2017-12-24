@@ -7,8 +7,11 @@ app.info
 compile
 config.h
 config.h.in
+config.guess
 config.log
+config.rpath
 config.status
+config.sub
 configure
 configure.scan
 coverage_report
@@ -39,3 +42,15 @@ TAGS
 src/dseq
 tests/*.trs
 autoscan.log
+autoscan-*.log
+
+ltmain.sh
+
+# http://www.gnu.org/software/automake
+
+ar-lib
+mdate-sh
+py-compile
+test-driver
+ylwrap
+mkinstalldirs
